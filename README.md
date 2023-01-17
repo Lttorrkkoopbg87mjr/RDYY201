@@ -14,9 +14,9 @@ vless + vmess + trojan + shadowsocks2022
 - 加密
   - shadowsocks：**2022-blake3-aes-128-gcm**
 - 路径（默认）
-  - vless：**/vless/1eb6e917774b4a84aff6b058577c60a5**
-  - vmess：**/vmess/1eb6e917774b4a84aff6b058577c60a5**
-  - trojan：**/trojan/1eb6e917774b4a84aff6b058577c60a5**
+  - vless：**/vless**
+  - vmess：**/vmess**
+  - trojan：**/trojan**
   - shadowsocks：**/shadowsocks/1eb6e917774b4a84aff6b058577c60a5**
 
 > 其他参数默认
@@ -30,10 +30,10 @@ vless + vmess + trojan + shadowsocks2022
 | 变量名           | 默认值                           | 描述            |
 | ---------------- | -------------------------------- | --------------- |
 | PORT             | 8080                             | 端口            |
-| UUID             | 1eb6e917774b4a84aff6b058577c60a5 | 用户ID/密码     |
-| PATH_vless       | /vless/$UUID                     | vless路径       |
-| PATH_vmess       | /vmess/$UUID                     | vmess路径       |
-| PATH_trojan      | /trojan/$UUID                    | trojan路径      |
+| UUID             | d65a94d9-bc95-45b1-86d1-92fc90373dc9 | 用户ID/密码     |
+| PATH_vless       | /vless                           | vless路径       |
+| PATH_vmess       | /vmess                           | vmess路径       |
+| PATH_trojan      | /trojan                          | trojan路径      |
 | PATH_shadowsocks | /shadowsocks/$UUID               | shadowsocks路径 |
 
 为兼容**shadowsocks2022**，生成的UUID需去除所有`-`
