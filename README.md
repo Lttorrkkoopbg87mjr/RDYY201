@@ -8,7 +8,7 @@ vless + vmess + trojan + shadowsocks2022
 
 - 地址：**x.x.x.x**（由服务平台提供）
 - 端口：**443**（通常自带TLS）
-- 用户ID/密码：**1eb6e917774b4a84aff6b058577c60a5**（默认）
+- 用户ID/密码：**d65a94d9-bc95-45b1-86d1-92fc90373dc9**（默认）
 - 传输协议：**ws**
 - 传输层安全：**tls**
 - 加密
@@ -17,7 +17,7 @@ vless + vmess + trojan + shadowsocks2022
   - vless：**/vless**
   - vmess：**/vmess**
   - trojan：**/trojan**
-  - shadowsocks：**/shadowsocks/1eb6e917774b4a84aff6b058577c60a5**
+  - shadowsocks：**/shadowsocks/d65a94d9-bc95-45b1-86d1-92fc90373dc9**
 
 > 其他参数默认
 
